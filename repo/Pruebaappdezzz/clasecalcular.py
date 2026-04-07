@@ -10,7 +10,7 @@ class Sueno:
 
     def iniciar_sueno(self):
         self.hora_inicio = horita.datetime.now()
-        print(f"El sueño comenzó a las: {self.hora_inicio.strftime('%H:%M:%S')}")
+        print(f"El sueño comenzó a las: {self.hora_inicio.strftime('%H:%M:%S')} hs")
         return self.hora_inicio
     
 
